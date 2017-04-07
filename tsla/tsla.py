@@ -27,6 +27,7 @@ def testrun():
     plt.show()
 '''
 
+#plotting two variables, Low and Adjusted Close
 def testrun():
     df = pd.read_csv("tsla.csv")
     df[['Low', 'Adj Close']].plot()
